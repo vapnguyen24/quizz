@@ -19,8 +19,8 @@ const quizArr = [
 
     {
         question: 'Viết lệnh cần thiết để đổi chữ thành màu đỏ cho tất cả tag p trong trang',
-        a: 'const p = document.getElementByTagId("p");<br> for(let i of p.length) {i.style.color="red";}',
-        b: 'const p = document.getElementsByTagName("p");<br> for(let i of p.length) {i.style.color="red";}',
+        a: 'const p = document.getElementByTagId("p");<br>&nbsp;&nbsp;&nbsp;&nbsp;for(let i of p) {i.style.color="red";}',
+        b: 'const p = document.getElementsByTagName("p");<br>&nbsp;&nbsp;&nbsp;&nbsp; for(let i of p) {i.style.color="red";}',
         c: 'Cả A và B',
         d: 'Khó quá bỏ qua',
         correct: 'b'
